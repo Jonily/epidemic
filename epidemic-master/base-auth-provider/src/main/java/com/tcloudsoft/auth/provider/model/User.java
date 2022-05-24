@@ -15,7 +15,7 @@ import java.util.Date;
  * 
  * </p>
  *
- * @author WangLei
+ * @author zhuolin.Huang
  * @since 2020-05-14
  */
 @TableName("t_user")

@@ -12,7 +12,7 @@ import com.tcloudsoft.auth.provider.service.WechatUserService;
  * 服务实现类
  * </p>
  *
- * @author longgd
+ * @author zhuolin.Huang
  * @since 2020-11-10
  */
 @Service

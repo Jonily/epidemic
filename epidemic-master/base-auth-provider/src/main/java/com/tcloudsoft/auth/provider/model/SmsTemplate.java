@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author longgd
+ * @author zhuolin.Huang
  * @since 2020-11-10
  */
 @TableName("t_sms_template")

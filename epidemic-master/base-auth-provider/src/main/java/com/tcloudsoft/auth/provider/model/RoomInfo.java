@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author liuwei
+ * @author zhuolin.Huang
  * @since 2021-05-06
  */
 public class RoomInfo extends Model<RoomInfo> {

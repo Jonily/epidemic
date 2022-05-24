@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  *  Mapper 接口
  * </p>
  *
- * @author liuwei
+ * @author zhuolin.Huang
  * @since 2021-12-06
  */
 public interface VisitTypeMapper extends BaseMapper<VisitType> {

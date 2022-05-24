@@ -13,7 +13,7 @@ import org.springframework.util.CollectionUtils;
 /**
  * redisTemplate封装
  *
- * @author 谭斌
+ * @author zhuolin.Huang
  */
 @Component
 public class RedisService {

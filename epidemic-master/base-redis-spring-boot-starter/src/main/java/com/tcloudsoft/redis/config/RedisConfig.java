@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.jsontype.impl.LaissezFaireSubTypeValidator
 /***
  * redis配置类**
  * 
- * @author 谭斌
+ * @author zhuolin.Huang
  *
  */
 @Configuration
