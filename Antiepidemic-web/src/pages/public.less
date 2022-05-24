@@ -1,0 +1,24 @@
+@import '~antd/es/style/themes/default.less';
+
+@viewHeight: 1080;
+@viewWidth: 1920;
+
+.Height(@height) {
+  height: calc(@height / @viewHeight * 100vh);
+}
+
+.Width(@width) {
+  width: calc(@width / @viewWidth * 100vw);
+}
+
+.FontSize(@size) {
+  font-size: calc(@size / @viewWidth * 100vw);
+}
+
+.spaceButtomOrTop(@marginButtomOrTop) {
+  @spaceBT: calc(@marginButtomOrTop/@viewHeight *100vh);
+}
+
+.spaceLeftOrRight(@marginLeftOrRight) {
+  @spaceLR: calc(@marginLeftOrRight/@viewWidth*100vw)
+}

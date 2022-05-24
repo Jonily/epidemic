@@ -1,0 +1,170 @@
+// @import '~antd/es/style/themes/default.less';
+@import '../../public.less';
+
+.container {
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  //background: linear-gradient( 125deg,#0e98ff,#002f5b,#0073de,#002f5b);
+  background-image: url('../../../assets/login/home_bg.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  .Width(1400);
+  .Height(800);
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+
+  .left {
+    .Width(610);
+    height: 100%;
+    background-image: url('../../../assets/login/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    display: flex;
+
+    justify-content: center;
+    padding-top: calc(236/1080*100vh);
+
+    .left_title {
+      font-size: 48px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  .right {
+    .Width(790);
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    p {
+      .FontSize(36);
+      font-family: Microsoft YaHei;
+      text-align: center;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      margin-bottom: calc(57 / 1080 * 100vh);
+    }
+
+    .redColor {
+      color: red;
+    }
+
+    .bigSize {
+      font-size: 70px;
+    }
+
+    .login {
+      //text-align: center;
+
+      .input {
+        .Width(480);
+        border: none;
+        font-size: 18px;
+        padding-bottom: 23px;
+        padding-top: 13px;
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+
+      .forget {
+        .Width(360);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .btn {
+        .Width(480);
+        .Height(50);
+        margin-top: 46px;
+        font-size: 20px;
+      }
+
+      .formItem {
+        .spaceButtomOrTop(20);
+        margin-bottom: @spaceBT;
+      }
+
+      :global {
+        .ant-input {
+          color: #000000;
+          font-size: 20px;
+        }
+
+      }
+    }
+  }
+
+  .icon {
+    margin-left: 16px;
+    color: @text-color-secondary;
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .foot_title {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: calc(51/1080*100vh);
+  }
+
+  :global {
+    .antd-pro-login-submit {
+      width: 100%;
+      margin-top: 24px;
+    }
+
+    .ant-form-item-has-error .ant-form-item-explain,
+    .ant-form-item-has-error .ant-form-item-split {
+      text-align: left;
+    }
+
+    .ant-input-affix-wrapper:focus,
+    .ant-input-affix-wrapper-focused {
+      border: none !important;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+
+    .ant-input:placeholder-shown {
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.45);
+    }
+
+    .ant-input {
+      font-size: 18px;
+    }
+  }
+}

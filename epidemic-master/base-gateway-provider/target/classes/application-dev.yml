@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: base-gateway-provider
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+server:
+  port: 7002
+  servlet:
+    context-path: /api
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+      
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      isolation:
+      execution:
+          thread:
+            timeoutInMilliseconds: 10000
+        
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    metadata-map:
+      name: 网关服务
+  client:
+    service-url:
+      defaultZone:  http://localhost:8001/eureka/
+
+#开放拦截的相关接口
+write:
+  list:
+  - /base-auth-provider/manage/login
+  - /base-auth-provider/manage/logout
+  - /base-auth-provider/weChatUser/auth
+  - /base-auth-provider/weChat/config
+  - /base-auth-provider/weChat/test
+        

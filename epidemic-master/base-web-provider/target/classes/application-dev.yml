@@ -1,0 +1,75 @@
+spring:
+  application:
+    name: base-web-provider
+  redis:
+    database: 1
+    host: 101.43.149.129
+    port: 6379
+    jedis:
+      pool:
+        max-active: 20
+    password: Hzl160806
+  datasource:
+    name: test
+    url: jdbc:mysql://101.43.149.129:3306/epidemic?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Hzl123456.
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+  jackson:
+    time-zone: GMT+8
+#        health-check-tls-skip-verify: true
+#        health-check-url: https://${spring.cloud.client.ip-address}:${server.port}/actuator/health
+
+server:
+  port: 8008
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    metadata-map:
+      name: 社区防疫系统web端
+  client:
+    service-url:
+      defaultZone:  http://localhost:8001/eureka/
+
+login:
+  failed:
+    num: 3
+    lock-time-in-seconds: 300
+  token:
+    expire-time-in-seconds: 3600
+    
+auth:
+  password: 888888
+
+wx:
+  appid: wx6c9ff947def78452
+  secret: 3ba583eeae2707cea6b2b9da0ae2f2b3
+
+write:
+  list:
+   - /api/auth/login
+
+document:
+  attPath: /opt/epidemic/image/  #上传附件路径
+  urlPath: http://101.43.149.129:99/ #图片展示路径

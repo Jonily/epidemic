@@ -1,0 +1,17 @@
+@import './icon';
+
+body {
+  background-color: #f5f7f9;
+}
+
+// 此处注意：如果你的样式不生效，那么原因是因为 vant 中的样式覆盖住了此处的样式
+// 解决方式有两种：
+// 1.（推荐） 在 main.js 中，调整文件引入顺序，保证 index.less 的引入在 vant.js 之后
+// 2.在 background-color 后增加 !important
+.page-nav-bar {
+  background-color: #3296fa;
+  .van-nav-bar__title,
+  .van-icon {
+    color: #ffffff;
+  }
+} 

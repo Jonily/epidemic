@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-auth-provider/base-auth-provider.iml" filepath="$PROJECT_DIR$/base-auth-provider/base-auth-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-feign-api/base-feign-api.iml" filepath="$PROJECT_DIR$/base-feign-api/base-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-framework.iml" filepath="$PROJECT_DIR$/base-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-gateway-provider/base-gateway-provider.iml" filepath="$PROJECT_DIR$/base-gateway-provider/base-gateway-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-redis-spring-boot-starter/base-redis-spring-boot-starter.iml" filepath="$PROJECT_DIR$/base-redis-spring-boot-starter/base-redis-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-utils/base-utils.iml" filepath="$PROJECT_DIR$/base-utils/base-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-web-provider/base-web-provider.iml" filepath="$PROJECT_DIR$/base-web-provider/base-web-provider.iml" />
+    </modules>
+  </component>
+</project>

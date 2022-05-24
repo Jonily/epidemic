@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-gateway-provider" />
+        <module name="base-auth-provider" />
+        <module name="base-web-provider" />
+        <module name="base-redis-spring-boot-starter" />
+        <module name="base-utils" />
+        <module name="base-feign-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-auth-provider" target="1.8" />
+      <module name="base-feign-api" target="1.8" />
+      <module name="base-framework" target="1.8" />
+      <module name="base-gateway-provider" target="1.8" />
+      <module name="base-redis-spring-boot-starter" target="1.8" />
+      <module name="base-utils" target="1.8" />
+      <module name="base-web-provider" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-auth-provider" options="-parameters" />
+      <module name="base-feign-api" options="-parameters" />
+      <module name="base-gateway-provider" options="-parameters" />
+      <module name="base-redis-spring-boot-starter" options="-parameters" />
+      <module name="base-utils" options="-parameters" />
+      <module name="base-web-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

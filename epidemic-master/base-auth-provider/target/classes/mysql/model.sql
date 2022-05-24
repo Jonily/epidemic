@@ -1,0 +1,1 @@
+create table abc5 (id  varchar(50),name  varchar(255),age  varchar(255),card  varchar(255) );

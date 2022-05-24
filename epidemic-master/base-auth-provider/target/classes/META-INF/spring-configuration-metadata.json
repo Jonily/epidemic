@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.tcloudsoft.auth.provider.config.DruidConfig",
+      "sourceMethod": "dataSource()"
+    },
+    {
+      "name": "write",
+      "type": "com.tcloudsoft.auth.provider.config.ListConfig",
+      "sourceType": "com.tcloudsoft.auth.provider.config.ListConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "write.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.tcloudsoft.auth.provider.config.ListConfig"
+    }
+  ],
+  "hints": []
+}

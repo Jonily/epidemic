@@ -1,0 +1,242 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'lcdd';
+  src: url('/public/fonts/LCdd.TTF');
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead>tr,
+    &-tbody>tr {
+
+      >th,
+      >td {
+        white-space: pre;
+
+        >span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  body .ant-design-pro>.ant-layout {
+    min-height: 100vh;
+  }
+}
+
+// 
+// 溯源图 tooltip 
+.g6_toolbar_ul {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #545454;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0;
+  // box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+  // width: 100px;
+
+  display: flex;
+
+  >li {
+    padding: 6px;
+    cursor: pointer;
+  }
+
+  .screenImg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.g6-tooltip {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #545454;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 8px;
+  box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+
+  label {
+    display: block;
+    min-height: 21px;
+
+    span:first-child {
+      float: left;
+      width: 76px;
+      text-align: right;
+    }
+  }
+
+}
+
+
+// 全屏样式
+#mountNode:-webkit-full-screen {
+  background: #fff;
+}
+
+.proCard {
+  min-height: calc(100vh - 291px);
+}
+
+// card表格搜索 下边框
+.ui-form-bottom {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+
+.Pane2 {
+  width: 50%;
+}
+
+.Resizer {
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(170, 73, 73, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border: none;
+}
+
+// 页脚 
+.ant-pro-global-footer {
+  line-height: 30px;
+  margin: 25px 0;
+}
+
+// main 最小高度
+.mainCard {
+  min-height: calc(100vh - 216px);
+}
+
+// PageHeaderWrapper 外 间距
+.ant-pro-page-container .ant-pro-page-container-children-content {
+  margin: 8px 8px 0;
+}
+
+//  main 外边距
+.ant-layout-header+.ant-pro-basicLayout-content {
+  margin: 8px 8px 0px;
+}
+
+.ant-pro-basicLayout-content {
+  div.ant-pro-page-container {
+    margin: -8px -8px 0;
+  }
+}
+
+// Card title 加粗 16px
+.ant-card-head-wrapper {
+  >.ant-card-head-title {
+    // font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.ant-modal-header {
+  >.ant-modal-title {
+    font-weight: bold;
+  }
+}
+
+
+.ant-pro-setting-drawer-handle {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+}

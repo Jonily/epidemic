@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.web.provider.mapper.IsolationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.web.provider.model.Isolation">
+        <id column="id" property="id" />
+        <result column="creator_time" property="creatorTime" />
+        <result column="id_card" property="idCard" />
+        <result column="time" property="time" />
+        <result column="type" property="type" />
+        <result column="origin" property="origin" />
+        <result column="describtion" property="describtion" />
+        <result column="plan_close_time" property="planCloseTime" />
+        <result column="close_time" property="closeTime" />
+        <result column="dept_id" property="deptId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, creator_time, id_card, time, type, origin, describtion, plan_close_time, close_time, dept_id
+    </sql>
+
+</mapper>

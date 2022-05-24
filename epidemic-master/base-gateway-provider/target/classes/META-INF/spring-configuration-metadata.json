@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "write",
+      "type": "com.tcloudsoft.tcms.gateway.provider.config.ListConfig",
+      "sourceType": "com.tcloudsoft.tcms.gateway.provider.config.ListConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "write.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.tcloudsoft.tcms.gateway.provider.config.ListConfig"
+    }
+  ],
+  "hints": []
+}

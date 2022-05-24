@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.web.provider.mapper.VaccinationFileMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.web.provider.model.VaccinationFile">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="url" property="url" />
+        <result column="target_id" property="targetId" />
+        <result column="upload_time" property="uploadTime" />
+        <result column="last_download_time" property="lastDownloadTime" />
+        <result column="download_num" property="downloadNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, url, target_id, upload_time, last_download_time, download_num
+    </sql>
+
+</mapper>

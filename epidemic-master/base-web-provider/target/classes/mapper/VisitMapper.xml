@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.web.provider.mapper.VisitMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.web.provider.model.Visit">
+        <id column="id" property="id" />
+        <result column="id_card" property="idCard" />
+        <result column="from_province" property="fromProvince" />
+        <result column="from_city" property="fromCity" />
+        <result column="from_district" property="fromDistrict" />
+        <result column="from_street" property="fromStreet" />
+        <result column="from_village" property="fromVillage" />
+        <result column="from_model" property="fromModel" />
+        <result column="target_province" property="targetProvince" />
+        <result column="target_city" property="targetCity" />
+        <result column="target_district" property="targetDistrict" />
+        <result column="target_street" property="targetStreet" />
+        <result column="target_village" property="targetVillage" />
+        <result column="day_num" property="dayNum" />
+        <result column="reason" property="reason" />
+        <result column="creator_time" property="creatorTime" />
+        <result column="plan_time" property="planTime" />
+        <result column="type" property="type" />
+        <result column="deleted" property="deleted" />
+        <result column="dept_id" property="deptId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, id_card, from_province, from_city, from_district, from_street, from_village, from_model, target_province, target_city, target_district, target_street, target_village, day_num, reason, creator_time, plan_time, type, deleted,dept_id
+    </sql>
+
+</mapper>

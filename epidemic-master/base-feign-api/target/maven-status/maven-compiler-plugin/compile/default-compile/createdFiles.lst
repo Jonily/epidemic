@@ -1,0 +1,2 @@
+com\tcloudsoft\feign\api\provider\IAuthService.class
+com\tcloudsoft\feign\api\provider\fallback\AuthServiceFallback.class

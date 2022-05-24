@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.web.provider.mapper.IsolationExamMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.web.provider.model.IsolationExam">
+        <id column="id" property="id" />
+        <result column="isolation_id" property="isolationId" />
+        <result column="reason" property="reason" />
+        <result column="creator_time" property="creatorTime" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, isolation_id, reason, creator_time, status
+    </sql>
+
+</mapper>

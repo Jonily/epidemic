@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.auth.provider.mapper.PersonMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.auth.provider.model.Person">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="id_card" property="idCard" />
+        <result column="phone" property="phone" />
+        <result column="age" property="age" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="district" property="district" />
+        <result column="street" property="street" />
+        <result column="village" property="village" />
+        <result column="origin" property="origin" />
+        <result column="creator_time" property="creatorTime" />
+        <result column="code_status" property="codeStatus" />
+        <result column="last_code_status" property="lastCodeStatus" />
+        <result column="deleted" property="deleted" />
+        <result column="dept_id" property="deptId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, id_card, phone, age, province, city, district, street, village, origin, creator_time, code_status, last_code_status, deleted,dept_id
+    </sql>
+
+</mapper>

@@ -1,0 +1,85 @@
+spring:
+  application:
+    name: base-auth-provider
+  redis:
+    database: 1
+    host: 101.43.149.129
+    port: 6379
+    jedis:
+      pool:
+        max-active: 20
+    password: Hzl160806
+    timeout: 5000
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/epidemic?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+  jackson:
+    time-zone: GMT+8
+#        health-check-tls-skip-verify: true
+#        health-check-url: https://${spring.cloud.client.ip-address}:${server.port}/actuator/health 
+server:
+  port: 8001
+
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 5 #接收心跳的间隔时间
+    lease-renewal-interval-in-seconds: 5 #发送心跳间隔时间
+    prefer-ip-address: true
+    metadata-map:
+      name: 社区防疫系统公共部分系统
+  server:
+    eviction-interval-timer-in-ms: 5000
+  client:
+    fetch-registry: false
+    register-with-eureka: true #自己也进行注册
+    service-url:
+      defaultZone: http://${spring.cloud.client.ip-address}:${server.port}/eureka/
+
+
+login:
+  failed:
+    num: 3
+    lock-time-in-seconds: 300
+  token:
+    expire-time-in-seconds: 3600
+    
+auth:
+  password: 888888
+
+write:
+  list:
+   - /api/auth/login
+
+
+
+wx:
+  appid: wx6c9ff947def78452
+  secret: 3ba583eeae2707cea6b2b9da0ae2f2b3
+
+
+
+document:
+  attPath: /opt/epidemic/image/  #上传附件路径
+  urlPath: http://101.43.149.129:99/ #图片展示路径

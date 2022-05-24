@@ -1,0 +1,805 @@
+===2022-01-19 19:28:47.111 INFO  com.tcloudsoft.auth.provider.AuthApplication Line:655 - The following profiles are active: dev
+===2022-01-19 19:28:50.367 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+===2022-01-19 19:28:50.614 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'accountMapper' and 'com.tcloudsoft.auth.provider.mapper.AccountMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.615 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'deptInfoMapper' and 'com.tcloudsoft.auth.provider.mapper.DeptInfoMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.642 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'deptMapper' and 'com.tcloudsoft.auth.provider.mapper.DeptMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.643 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'logMapper' and 'com.tcloudsoft.auth.provider.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.643 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'manageMapper' and 'com.tcloudsoft.auth.provider.mapper.ManageMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.643 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'openMapper' and 'com.tcloudsoft.auth.provider.mapper.OpenMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.643 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'personMapper' and 'com.tcloudsoft.auth.provider.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.644 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'regionMapper' and 'com.tcloudsoft.auth.provider.mapper.RegionMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.644 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'smsTemplateMapper' and 'com.tcloudsoft.auth.provider.mapper.SmsTemplateMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.644 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'wechatUserMapper' and 'com.tcloudsoft.auth.provider.mapper.WechatUserMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:28:50.645 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.tcloudsoft.auth.provider.mapper]' package. Please check your configuration.
+===2022-01-19 19:28:52.116 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8001"]
+===2022-01-19 19:28:52.117 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2022-01-19 19:28:52.117 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+===2022-01-19 19:28:52.248 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2022-01-19 19:28:52.443 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2022-01-19 19:28:52.444 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2022-01-19 19:28:52.482 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1116315d
+===2022-01-19 19:28:55.569 INFO  com.sun.jersey.server.impl.application.WebApplicationImpl Line:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+===2022-01-19 19:28:55.650 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2022-01-19 19:28:55.652 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2022-01-19 19:28:56.767 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2022-01-19 19:28:56.768 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2022-01-19 19:28:58.177 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+===2022-01-19 19:28:58.287 INFO  io.lettuce.core.EpollProvider Line:68  - Starting without optional epoll library
+===2022-01-19 19:28:58.289 INFO  io.lettuce.core.KqueueProvider Line:70  - Starting without optional kqueue library
+===2022-01-19 19:28:59.130 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2022-01-19 19:28:59.131 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2022-01-19 19:29:00.392 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+===2022-01-19 19:29:00.664 INFO  com.netflix.discovery.DiscoveryClient Line:368 - Initializing Eureka in region us-east-1
+===2022-01-19 19:29:01.011 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2022-01-19 19:29:01.011 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2022-01-19 19:29:01.011 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2022-01-19 19:29:01.012 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2022-01-19 19:29:01.161 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+===2022-01-19 19:29:01.323 INFO  com.netflix.discovery.DiscoveryClient Line:1294 - Starting heartbeat executor: renew interval is: 5
+===2022-01-19 19:29:01.326 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+===2022-01-19 19:29:01.330 INFO  com.netflix.discovery.DiscoveryClient Line:468 - Discovery Client initialized at timestamp 1642591741328 with initial instances count: 0
+===2022-01-19 19:29:01.361 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:66  - Initializing ...
+===2022-01-19 19:29:01.363 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:155 - The replica size seems to be empty. Check the route 53 DNS Registry
+===2022-01-19 19:29:01.368 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:153 - Finished initializing remote region registries. All known remote regions: []
+===2022-01-19 19:29:01.369 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:73  - Initialized
+===2022-01-19 19:29:01.625 INFO  com.netflix.discovery.DiscoveryClient Line:1330 - Saw local status change event StatusChangeEvent [timestamp=1642591741625, current=UP, previous=STARTING]
+===2022-01-19 19:29:01.627 INFO  com.netflix.discovery.DiscoveryClient Line:847 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001: registering service...
+===2022-01-19 19:29:01.628 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+===2022-01-19 19:29:01.662 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+===2022-01-19 19:29:01.732 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+===2022-01-19 19:29:02.196 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8001"]
+===2022-01-19 19:29:02.451 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2022-01-19 19:29:02.484 INFO  org.springblade.core.launch.StartEventListener Line:44  - ---[BASE-AUTH-PROVIDER]---启动完成，当前使用的端口:[8001]，环境变量:[dev]---
+===2022-01-19 19:29:02.491 INFO  com.tcloudsoft.auth.provider.AuthApplication Line:61  - Started AuthApplication in 17.166 seconds (JVM running for 20.53)
+===2022-01-19 19:29:02.573 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:266 - Registered instance BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 with status UP (replication=false)
+===2022-01-19 19:29:02.590 INFO  com.netflix.discovery.DiscoveryClient Line:856 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 - registration status: 204
+===2022-01-19 19:29:03.386 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1,test} inited
+===2022-01-19 19:39:51.212 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:155 - The replica size seems to be empty. Check the route 53 DNS Registry
+===2022-01-19 19:39:51.212 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+===2022-01-19 19:39:51.212 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:242 - Got 1 instances from neighboring DS node
+===2022-01-19 19:39:51.213 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:243 - Renew threshold is: 1
+===2022-01-19 19:39:51.213 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:254 - Changing status to UP
+===2022-01-19 19:39:51.221 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:39:56.219 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:40:01.219 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:40:06.220 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:40:11.220 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:41:58.646 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 102426ms
+===2022-01-19 19:41:59.398 INFO  io.lettuce.core.protocol.ConnectionWatchdog Line:171 - Reconnecting, last destination was /121.4.127.10:6379
+===2022-01-19 19:41:59.454 INFO  io.lettuce.core.protocol.ReconnectionHandler Line:188 - Reconnected to 121.4.127.10:6379
+===2022-01-19 19:42:36.619 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 32973ms
+===2022-01-19 19:43:24.775 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:43:24.776 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 43157ms
+===2022-01-19 19:43:52.770 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 22992ms
+===2022-01-19 19:44:00.199 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 2431ms
+===2022-01-19 19:44:10.780 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:534 - Current renewal threshold is : 1
+===2022-01-19 19:44:10.780 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 5580ms
+===2022-01-19 19:44:10.789 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient Line:91  - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.1.5:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:867)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1436)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+===2022-01-19 19:44:10.790 WARN  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:130 - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+===2022-01-19 19:44:10.794 INFO  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:124 - Request execution succeeded on retry #1
+===2022-01-19 19:45:00.691 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 44910ms
+===2022-01-19 19:45:00.691 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+===2022-01-19 19:46:13.156 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 67464ms
+===2022-01-19 19:46:55.197 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 37042ms
+===2022-01-19 19:46:55.197 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:47:00.198 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:47:05.198 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:47:10.198 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:48:01.923 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 46724ms
+===2022-01-19 19:48:06.906 INFO  io.lettuce.core.protocol.ConnectionWatchdog Line:171 - Reconnecting, last destination was /121.4.127.10:6379
+===2022-01-19 19:48:12.830 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:618 - Evicting 1 items (expired=1, evictionLimit=1)
+===2022-01-19 19:48:12.830 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:48:12.831 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry Line:630 - DS: Registry: expired lease for BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001
+===2022-01-19 19:48:12.835 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:328 - Cancelled instance BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 (replication=false)
+===2022-01-19 19:48:12.836 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 5913ms
+===2022-01-19 19:49:00.410 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 42574ms
+===2022-01-19 19:49:00.420 INFO  io.lettuce.core.protocol.ReconnectionHandler Line:188 - Reconnected to 121.4.127.10:6379
+===2022-01-19 19:49:00.422 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry Line:360 - DS: Registry: lease doesn't exist, registering resource: BASE-AUTH-PROVIDER - LAPTOP-FTVB5H5N:base-auth-provider:8001
+===2022-01-19 19:49:00.423 WARN  com.netflix.eureka.resources.InstanceResource Line:116 - Not Found (Renew): BASE-AUTH-PROVIDER - LAPTOP-FTVB5H5N:base-auth-provider:8001
+===2022-01-19 19:49:00.424 INFO  com.netflix.discovery.DiscoveryClient Line:871 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 - Re-registering apps/BASE-AUTH-PROVIDER
+===2022-01-19 19:49:00.424 INFO  com.netflix.discovery.DiscoveryClient Line:847 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001: registering service...
+===2022-01-19 19:49:00.432 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:266 - Registered instance BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 with status UP (replication=false)
+===2022-01-19 19:49:00.434 INFO  com.netflix.discovery.DiscoveryClient Line:856 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 - registration status: 204
+===2022-01-19 19:49:33.924 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 28513ms
+===2022-01-19 19:49:41.265 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:49:41.265 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 2341ms
+===2022-01-19 19:51:07.684 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 81418ms
+===2022-01-19 19:51:07.681 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+===2022-01-19 19:51:08.149 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:155 - The replica size seems to be empty. Check the route 53 DNS Registry
+===2022-01-19 19:51:15.017 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 2333ms
+===2022-01-19 19:51:26.590 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 6573ms
+===2022-01-19 19:51:26.594 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient Line:91  - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.1.5:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:867)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1436)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+===2022-01-19 19:51:29.559 WARN  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:130 - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+===2022-01-19 19:51:29.562 INFO  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:124 - Request execution succeeded on retry #1
+===2022-01-19 19:51:31.619 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 29ms
+===2022-01-19 19:51:44.118 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 7498ms
+===2022-01-19 19:51:46.889 ERROR com.tcloudsoft.auth.provider.controller.ManageController Line:50  - 登录失败
+org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:54)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:52)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:270)
+	at org.springframework.data.redis.connection.lettuce.LettuceKeyCommands.convertLettuceAccessException(LettuceKeyCommands.java:809)
+	at org.springframework.data.redis.connection.lettuce.LettuceKeyCommands.del(LettuceKeyCommands.java:128)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.del(DefaultedRedisConnection.java:76)
+	at org.springframework.data.redis.core.RedisTemplate.lambda$delete$2(RedisTemplate.java:713)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:228)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:713)
+	at com.tcloudsoft.redis.config.RedisService.del(RedisService.java:80)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl.auth(ManageServiceImpl.java:131)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl$$FastClassBySpringCGLIB$$ce02cdc8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl$$EnhancerBySpringCGLIB$$62353f5b.auth(<generated>)
+	at com.tcloudsoft.auth.provider.controller.ManageController.auth(ManageController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.tcloudsoft.auth.provider.filter.HttpBasicAuthorizeFilter.doFilter(HttpBasicAuthorizeFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisCommandExecutionException: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:59)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+===2022-01-19 19:51:49.118 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:51:54.119 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:51:59.120 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:52:04.120 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:52:09.120 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:52:14.121 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:52:19.121 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+===2022-01-19 19:52:36.376 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 12255ms
+===2022-01-19 19:52:44.646 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:52:44.647 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 3270ms
+===2022-01-19 19:53:00.482 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 10834ms
+===2022-01-19 19:53:13.596 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:53:23.181 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 17699ms
+===2022-01-19 19:54:04.559 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 36378ms
+===2022-01-19 19:54:12.644 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:54:12.645 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 3085ms
+===2022-01-19 19:54:12.650 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient Line:91  - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.1.5:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.NoHttpResponseException: 192.168.1.5:8001 failed to respond
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:867)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1436)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.NoHttpResponseException: 192.168.1.5:8001 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+===2022-01-19 19:54:12.654 WARN  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:130 - Request execution failed with message: org.apache.http.NoHttpResponseException: 192.168.1.5:8001 failed to respond
+===2022-01-19 19:54:33.300 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 15654ms
+===2022-01-19 19:55:29.764 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 51463ms
+===2022-01-19 19:55:29.771 WARN  com.netflix.discovery.TimedSupervisorTask Line:84  - task supervisor rejected the task
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@57c1f6b1 rejected from java.util.concurrent.ThreadPoolExecutor@57edc954[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 34]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:55:29.775 INFO  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:124 - Request execution succeeded on retry #1
+===2022-01-19 19:55:29.820 WARN  com.netflix.discovery.DiscoveryClient Line:1328 - Saw local status change event StatusChangeEvent [timestamp=1642593329820, current=DOWN, previous=UP]
+===2022-01-19 19:55:29.821 INFO  com.netflix.discovery.DiscoveryClient Line:847 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001: registering service...
+===2022-01-19 19:55:29.825 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:266 - Registered instance BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 with status DOWN (replication=false)
+===2022-01-19 19:55:29.825 INFO  com.netflix.discovery.DiscoveryClient Line:856 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 - registration status: 204
+===2022-01-19 19:55:29.924 ERROR com.tcloudsoft.auth.provider.controller.ManageController Line:50  - 登录失败
+org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:54)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:52)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:270)
+	at org.springframework.data.redis.connection.lettuce.LettuceKeyCommands.convertLettuceAccessException(LettuceKeyCommands.java:809)
+	at org.springframework.data.redis.connection.lettuce.LettuceKeyCommands.del(LettuceKeyCommands.java:128)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.del(DefaultedRedisConnection.java:76)
+	at org.springframework.data.redis.core.RedisTemplate.lambda$delete$2(RedisTemplate.java:713)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:228)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:713)
+	at com.tcloudsoft.redis.config.RedisService.del(RedisService.java:80)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl.auth(ManageServiceImpl.java:131)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl$$FastClassBySpringCGLIB$$ce02cdc8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.tcloudsoft.auth.provider.service.impl.ManageServiceImpl$$EnhancerBySpringCGLIB$$62353f5b.auth(<generated>)
+	at com.tcloudsoft.auth.provider.controller.ManageController.auth(ManageController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.tcloudsoft.auth.provider.filter.HttpBasicAuthorizeFilter.doFilter(HttpBasicAuthorizeFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisCommandExecutionException: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:59)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+===2022-01-19 19:55:45.366 INFO  com.tcloudsoft.auth.provider.AuthApplication Line:655 - The following profiles are active: dev
+===2022-01-19 19:55:47.328 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+===2022-01-19 19:55:47.457 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'accountMapper' and 'com.tcloudsoft.auth.provider.mapper.AccountMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.458 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'deptInfoMapper' and 'com.tcloudsoft.auth.provider.mapper.DeptInfoMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.458 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'deptMapper' and 'com.tcloudsoft.auth.provider.mapper.DeptMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.458 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'logMapper' and 'com.tcloudsoft.auth.provider.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'manageMapper' and 'com.tcloudsoft.auth.provider.mapper.ManageMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'openMapper' and 'com.tcloudsoft.auth.provider.mapper.OpenMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'personMapper' and 'com.tcloudsoft.auth.provider.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'regionMapper' and 'com.tcloudsoft.auth.provider.mapper.RegionMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'smsTemplateMapper' and 'com.tcloudsoft.auth.provider.mapper.SmsTemplateMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'wechatUserMapper' and 'com.tcloudsoft.auth.provider.mapper.WechatUserMapper' mapperInterface. Bean already defined with the same name!
+===2022-01-19 19:55:47.460 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.tcloudsoft.auth.provider.mapper]' package. Please check your configuration.
+===2022-01-19 19:55:48.924 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8001"]
+===2022-01-19 19:55:48.925 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2022-01-19 19:55:48.925 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+===2022-01-19 19:55:49.041 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2022-01-19 19:55:49.171 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2022-01-19 19:55:49.171 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2022-01-19 19:55:49.341 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5d489add
+===2022-01-19 19:55:51.154 INFO  com.sun.jersey.server.impl.application.WebApplicationImpl Line:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+===2022-01-19 19:55:51.216 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2022-01-19 19:55:51.217 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2022-01-19 19:55:51.318 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2022-01-19 19:55:51.319 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2022-01-19 19:55:52.424 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+===2022-01-19 19:55:52.518 INFO  io.lettuce.core.EpollProvider Line:68  - Starting without optional epoll library
+===2022-01-19 19:55:52.520 INFO  io.lettuce.core.KqueueProvider Line:70  - Starting without optional kqueue library
+===2022-01-19 19:55:53.246 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2022-01-19 19:55:53.247 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2022-01-19 19:55:54.191 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+===2022-01-19 19:55:54.308 INFO  com.netflix.discovery.DiscoveryClient Line:368 - Initializing Eureka in region us-east-1
+===2022-01-19 19:55:54.616 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2022-01-19 19:55:54.616 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2022-01-19 19:55:54.617 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2022-01-19 19:55:54.617 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2022-01-19 19:55:54.743 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+===2022-01-19 19:55:54.904 INFO  com.netflix.discovery.DiscoveryClient Line:1294 - Starting heartbeat executor: renew interval is: 5
+===2022-01-19 19:55:54.906 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+===2022-01-19 19:55:54.909 INFO  com.netflix.discovery.DiscoveryClient Line:468 - Discovery Client initialized at timestamp 1642593354908 with initial instances count: 0
+===2022-01-19 19:55:54.938 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:66  - Initializing ...
+===2022-01-19 19:55:54.940 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:155 - The replica size seems to be empty. Check the route 53 DNS Registry
+===2022-01-19 19:55:54.945 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:153 - Finished initializing remote region registries. All known remote regions: []
+===2022-01-19 19:55:54.946 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:73  - Initialized
+===2022-01-19 19:55:55.201 INFO  com.netflix.discovery.DiscoveryClient Line:1330 - Saw local status change event StatusChangeEvent [timestamp=1642593355201, current=UP, previous=STARTING]
+===2022-01-19 19:55:55.204 INFO  com.netflix.discovery.DiscoveryClient Line:847 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001: registering service...
+===2022-01-19 19:55:55.205 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+===2022-01-19 19:55:55.226 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+===2022-01-19 19:55:55.287 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+===2022-01-19 19:55:55.683 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8001"]
+===2022-01-19 19:55:55.917 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2022-01-19 19:55:55.926 INFO  org.springblade.core.launch.StartEventListener Line:44  - ---[BASE-AUTH-PROVIDER]---启动完成，当前使用的端口:[8001]，环境变量:[dev]---
+===2022-01-19 19:55:55.928 INFO  com.tcloudsoft.auth.provider.AuthApplication Line:61  - Started AuthApplication in 11.976 seconds (JVM running for 13.574)
+===2022-01-19 19:55:55.994 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:266 - Registered instance BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 with status UP (replication=false)
+===2022-01-19 19:55:56.011 INFO  com.netflix.discovery.DiscoveryClient Line:856 - DiscoveryClient_BASE-AUTH-PROVIDER/LAPTOP-FTVB5H5N:base-auth-provider:8001 - registration status: 204
+===2022-01-19 19:55:56.663 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1,test} inited
+===2022-01-19 19:56:49.042 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:56:49.044 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient Line:91  - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.1.5:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:867)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1436)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+===2022-01-19 19:56:49.048 WARN  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:130 - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+===2022-01-19 19:56:49.072 INFO  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:124 - Request execution succeeded on retry #1
+===2022-01-19 19:57:34.505 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 19:58:30.273 WARN  com.netflix.discovery.TimedSupervisorTask Line:73  - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2022-01-19 20:00:06.313 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:242 - Got 1 instances from neighboring DS node
+===2022-01-19 20:00:06.314 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient Line:91  - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.1.5:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:867)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1436)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+===2022-01-19 20:00:14.965 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:243 - Renew threshold is: 1
+===2022-01-19 20:00:14.967 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:254 - Changing status to UP
+===2022-01-19 20:00:14.966 WARN  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:130 - Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+===2022-01-19 20:00:14.973 INFO  com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient Line:124 - Request execution succeeded on retry #1

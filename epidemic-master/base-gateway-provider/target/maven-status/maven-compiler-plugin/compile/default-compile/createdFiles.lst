@@ -1,0 +1,5 @@
+com\tcloudsoft\tcms\gateway\provider\config\ApiPrefixConfig.class
+com\tcloudsoft\tcms\gateway\provider\config\ListConfig.class
+com\tcloudsoft\tcms\gateway\provider\filter\AuthGlobalFilter.class
+com\tcloudsoft\tcms\gateway\provider\GatewayApplication.class
+META-INF\spring-configuration-metadata.json

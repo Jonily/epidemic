@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tcloudsoft.web.provider.mapper.VaccinationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tcloudsoft.web.provider.model.Vaccination">
+        <id column="id" property="id" />
+        <result column="time" property="time" />
+        <result column="creator_time" property="creatorTime" />
+        <result column="area" property="area" />
+        <result column="inoculation_num" property="inoculationNum" />
+        <result column="brand" property="brand" />
+        <result column="id_card" property="idCard" />
+        <result column="status" property="status" />
+        <result column="deleted" property="deleted" />
+        <result column="dept_id" property="deptId" />
+        <result column="finish_time" property="finishTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, time, creator_time, area, inoculation_num, brand, id_card, status, deleted,dept_id
+    </sql>
+
+</mapper>
