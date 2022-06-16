@@ -27,7 +27,7 @@
             />
           </template>
         </van-cell>
-		     <van-cell title="我的申请" is-link to="/community/isolationExam">
+		     <van-cell title="隔离申请" is-link to="/community/isolationExam">
           <template #icon>
             <i
               class="iconfont iconerweima1"
@@ -55,7 +55,6 @@
 			},
 		},
 		methods:{
-
 		}
 	}
 </script>

@@ -111,7 +111,7 @@ const VaccinationStatistics = () => {
         <Row gutter={24}>
           <Col xl={24} lg={24} md={24} sm={24} xs={24}>
             <Card
-              title="最近一个月接种完成情况统计"
+              title="本月接种完成情况统计"
               bordered={false}
               className={styles.cellCard}
               style={{ height: '480px', margin: 0 }}
