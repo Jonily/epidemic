@@ -506,8 +506,8 @@ public class VaccinationController {
             startTime = before +"-"+num+" 00:00:01";
             endTime = before +"-"+num+" 23:59:59";
         }
-        query.ge("v.finish_time",startTime);
-        query.le("v.finish_time",endTime);
+        query.ge("v.time",startTime);
+        query.le("v.time",endTime);
         return query;
     }
 }
