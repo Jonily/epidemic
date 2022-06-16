@@ -465,7 +465,7 @@ public class VaccinationController {
         }
     }
 
-    @ApiOperation(value = "查询统计数据--最近一个月完成接种情况",notes = "最近一个月完成接种情况")
+    @ApiOperation(value = "查询统计数据--本月完成接种情况",notes = "本月完成接种情况")
     @GetMapping("/four")
     public ResponseData<JSONArray> jsonFour(@RequestHeader(WebConstants.HEADER)String token){
         try {
@@ -497,15 +497,17 @@ public class VaccinationController {
         query.eq("v.dept_id",deptId);
         query.eq("v.deleted",0);
         String before = DateUtil.format(date,"yyyy-MM");
-        String startTime = "";
-        String endTime = "";
-        if (num < 10 ){
-            startTime = before +"-0"+num+" 00:00:01";
-            endTime = before +"-0"+num+" 23:59:59";
-        }else {
-            startTime = before +"-"+num+" 00:00:01";
-            endTime = before +"-"+num+" 23:59:59";
-        }
+        String startTime = before +"-0"+num+" 00:00:00";
+        String endTime = before +"-0"+num+" 23:59:59";
+//        String startTime = "";
+//        String endTime = "";
+//        if (num < 10 ){
+//            startTime = before +"-0"+num+" 00:00:00";
+//            endTime = before +"-0"+num+" 23:59:59";
+//        }else {
+//            startTime = before +"-"+num+" 00:00:00";
+//            endTime = before +"-"+num+" 23:59:59";
+//        }
         query.ge("v.time",startTime);
         query.le("v.time",endTime);
         return query;
