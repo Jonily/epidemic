@@ -40,7 +40,7 @@ public class ManageController {
             if (TcloudUtils.isEmpty(query.getUsername()) || StringUtils.isEmpty(query.getPassword())) {
                 return ResponseData.fail(ResponseCodeEnum.C00001);
             }
-            AuthResult authResult = manageService.auth(query);
+            AuthResult authResult = manageService.auth(query);// 查询用户数据
             return ResponseData.ok(authResult);
         }catch (IllegalArgumentException e){
             log.error("登录失败",e);
